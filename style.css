@@ -651,3 +651,12 @@ a{
     /* border: 2px dotted peru; */
     border: 1px solid #e0e0e0;
 }
+
+.footer{
+
+}
+
+.footer img{
+    width: 1rem;
+    vertical-align: middle;
+}
