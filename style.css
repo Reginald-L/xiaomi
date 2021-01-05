@@ -327,35 +327,37 @@ a{
 }
 
 .camera{
-    /* position: absolute; */
+    position: absolute;
     display: flex;
+    width: 100%;
+    height: 100%;
     top: 15rem;
-    left: 19rem;
+    left: 0;
 }
 
 
 .camera > li{
-    position: relative;
+    position: absolute;
 }
 
 .camera :nth-child(1){
-    top: 18rem;
-    left: 18rem;
+    top: 1%;
+    left: 20%;
 }
 
 .camera :nth-child(2){
-    top: 18rem; 
-    left: 58rem;
+    top: 1%; 
+    left: 76%;
 }
 
 .camera :nth-child(3){
-    top: 23rem;
-    left: 7.5rem;
+    top: 15%;
+    left: 20%;
 }
 
 .camera :nth-child(4){
-    top: 23rem;
-    left: 44.5rem;
+    top: 15%;
+    left: 76%;
 }
 
 .camera > li :first-child{
