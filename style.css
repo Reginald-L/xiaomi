@@ -315,6 +315,7 @@ a{
 
 .descrption-img > .imgs > :last-child{
     background-image: url("img/section07.jpg");
+    position: relative;
 }
 
 .descrption-img > .imgs > .img > .text{
@@ -326,7 +327,7 @@ a{
 }
 
 .camera{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     top: 15rem;
     left: 19rem;
@@ -337,19 +338,24 @@ a{
     position: relative;
 }
 
+.camera :nth-child(1){
+    top: 18rem;
+    left: 18rem;
+}
+
 .camera :nth-child(2){
-    top: 0; 
-    left: 47rem;
+    top: 18rem; 
+    left: 58rem;
 }
 
 .camera :nth-child(3){
-    top: 5rem;
-    left: -10.5rem;
+    top: 23rem;
+    left: 7.5rem;
 }
 
 .camera :nth-child(4){
-    top: 5rem;
-    left: 33.2rem;
+    top: 23rem;
+    left: 44.5rem;
 }
 
 .camera > li :first-child{
